@@ -9,6 +9,7 @@ body {
 
 .general{
     width: 1024px;
+    height: 1024px;
     margin: 0px auto;           /* Alinear los items en el centro de la pantalla*/
     margin-top: 80px;
     margin-bottom: 80px;
@@ -16,7 +17,7 @@ body {
 
 #header {
     width: 100%;
-    height: 100px;
+    height: 10%;
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
@@ -33,7 +34,7 @@ body {
 
 #principal{
     width: 100%;
-    height: 400px;
+    height: 42%;
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -50,7 +51,7 @@ body {
 
 #cajas {
     width: 100%;
-    height: 250px;
+    height: 25%;
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -68,7 +69,7 @@ body {
 
 #footer {
     width: 100%;
-    height: 200px;
+    height: 20%;
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -85,5 +86,18 @@ body {
 }
 
 @media (max-width: 321px) and (max-width: 768px) {
-    
+    .general{
+        width: 768px;
+        height: 768px;
+        margin: 0px auto;           /* Alinear los items en el centro de la pantalla*/
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #header {
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
 }
